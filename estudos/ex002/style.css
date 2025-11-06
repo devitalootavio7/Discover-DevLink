@@ -1,0 +1,21 @@
+header {
+  border: 1px solid red;
+  padding: 60px;
+}
+
+h1 {
+  border: 1px solid green;
+  height: 60px;
+  display: inline;
+}
+
+p {
+  border: 1px solid purple;
+  margin: 60px;
+  display: inline;
+}
+
+span{
+  border: 1px solid pink;
+  display: block;
+}
