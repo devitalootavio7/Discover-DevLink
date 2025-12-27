@@ -5,15 +5,14 @@ body{
     background-position: top center;
     background-size: cover;*/
 
-
     /*background: color image repeat position/size */
     background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 
 #container {
-    width: 360px;
-    height: 712px;
-    border: 1px solid red;
+    width: 460px;
+    height: 900px;
+    border: 1px solid white;
     margin: auto;
-    
+    padding: 25px;
 }
