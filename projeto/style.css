@@ -10,9 +10,12 @@ body{
 }
 
 #container {
-    width: 460px;
-    height: 900px;
-    border: 1px solid white;
+    width: 360px;
+    height: 712px;
+    border: 1px solid red;
     margin: auto;
-    padding: 25px;
+}
+
+#profile img {
+
 }
