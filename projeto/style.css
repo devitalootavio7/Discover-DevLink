@@ -48,4 +48,9 @@ ul {
 
 ul li  {
     border: 1px solid red;
+
+    display: flex;
+    justify-content: center;
+    height: 52px;
+    align-items: center;
 }
