@@ -5,17 +5,13 @@
 }
 
 body{
-    /*background-image: url(assets/bg-mobile.jpg);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: cover;*/
-
-    /*backgound: color image repeat position/size */
-    background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
+    background-color: #032D68;
     }
 
 body * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: "Archivo Black", sans-serif;
+    font-weight:400;
+    font-style: normal;
     color: #ffff;
 }
 
@@ -44,13 +40,24 @@ body * {
 /* links */
 ul {
     list-style: none;
-}
-
-ul li  {
-    border: 1px solid red;
 
     display: flex;
-    justify-content: center;
-    height: 52px;
+    flex-direction: column;
+    gap: 16px;
+}
+
+ul li  a{
+    display: flex;
     align-items: center;
+    justify-content: center;
+
+    padding: 16px 24px;
+
+    border-radius: 8px;
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+
+    -webkit-backdrop-filter: blur(4px);
 }
